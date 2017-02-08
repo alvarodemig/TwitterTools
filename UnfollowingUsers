@@ -19,5 +19,5 @@ for friend in friends_list:
         print 'Unfollowed user ' + str(friend)
     except:
             print '---- UNFOLLOWING FAILED ---'
-    #You can include a waiting time between each unfollowing
+    #You can include a waiting time (seconds) between each unfollowing
     time.sleep(1)
