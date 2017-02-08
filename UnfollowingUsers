@@ -18,6 +18,6 @@ for friend in friends_list:
         api.destroy_friendship(friend)
         print 'Unfollowed user ' + str(friend)
     except:
-            print '---- LIMIT EXCEEDED ---'
+            print '---- UNFOLLOWING FAILED ---'
     #You can include a waiting time between each unfollowing
     time.sleep(1)
