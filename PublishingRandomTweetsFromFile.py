@@ -26,7 +26,7 @@ path = os.getcwd() + '/yourfile.csv'
 #Creating a list with the tweets available in my file
 
 tweets_list = []
-f = codecs.open(path, encoding='latin-1')
+f = codecs.open(path, encoding='utf-8')
 for line in f:
     tweets_list += [line]
 f.close()
